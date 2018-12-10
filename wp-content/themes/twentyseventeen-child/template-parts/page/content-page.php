@@ -38,16 +38,14 @@
 				'before' => '<div class="page-links">' . __( 'Pages:', 'twentyseventeen' ),
 				'after'  => '</div>',
 			) );
+			
 		?>
 
-		<!-- my edits -->
-		<div class="my-sidebar">
-		hello
 		<?php 
+		if ( function_exists( 'rl_gallery' ) ) { rl_gallery( '107' ); }
 		// get_sidebar(); 
 		?>
-		</div>
-			<!-- my edits end -->
+
 		
 	</div><!-- .entry-content -->
 

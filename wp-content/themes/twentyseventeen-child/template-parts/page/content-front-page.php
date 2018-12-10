@@ -29,7 +29,17 @@
 			<header class="entry-header">
 				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 
-				<?php twentyseventeen_edit_link( get_the_ID() ); ?>
+				
+				<?php 
+				//Removes the edit link
+				// twentyseventeen_edit_link( get_the_ID() ); 
+				?>
+
+
+				<?php 
+				//Adds the custom side bar
+		 get_sidebar(); 
+		?>
 
 			</header><!-- .entry-header -->
 
@@ -40,6 +50,8 @@
 						__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ),
 						get_the_title()
 					) );
+					
+
 				?>
 			</div><!-- .entry-content -->
 
