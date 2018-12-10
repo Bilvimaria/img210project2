@@ -31,4 +31,26 @@ body.has-header-video .site-title a {
     
   max-width:  800px;
 }
-
+/* 
+.my-sidebar{
+    position: absolute;
+    top :auto;
+    right: 20px;
+    bottom: 23em;
+    left : auto;
+    float: right;
+    border: 2px solid black;
+}
+.widget ul li, .widget ol li {
+    border-bottom: none;
+    border-top: none;
+} */
+/* 
+@media all and (max-width: 30em) {
+    .test{
+display: none;
+top : 0px;
+bottom : auto;
+right: 0;
+    }
+} */
