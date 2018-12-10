@@ -24,13 +24,12 @@ body.has-header-video .site-title a {
     left : 100px;
     right: 10px;
     top: 10px; */
+}
 
+.wrap {
+    max-width: 800px;
 }
-.wrap 
-{
-    
-  max-width:  800px;
-}
+
 /* 
 .my-sidebar{
     position: absolute;
@@ -45,6 +44,7 @@ body.has-header-video .site-title a {
     border-bottom: none;
     border-top: none;
 } */
+
 /* 
 @media all and (max-width: 30em) {
     .test{
@@ -54,3 +54,54 @@ bottom : auto;
 right: 0;
     }
 } */
+
+.textwidget {
+    font-style: italic;
+}
+
+.my-name {
+    font-weight: bold;
+}
+
+h2.widget-title {
+    display: none;
+}
+
+.navigation-top .current-menu-item>a,
+.navigation-top .current_page_item>a {
+    color: #7c9ac9;
+}
+
+@media screen and (max-width: 800px) {
+    .customize-partial-edit-shortcut button,
+    .widget .customize-partial-edit-shortcut button {
+        display: none;
+    }
+}
+
+.navigation-top a {
+    color: #7c9ac9;
+}
+
+.elementor a {
+    color: #a38865;
+}
+
+.social-navigation a {
+    background-color: #7c9ac9;
+}
+
+@media screen and (max-width: 800px) {
+    .my-name {
+        margin-left: 55px;
+        ;
+    }
+}
+
+.elementor-62 .elementor-element.elementor-element-a11397d.elementor-widget-heading .elementor-heading-title {
+    margin-left: 50px;
+}
+
+.main-navigation a:hover {
+    opacity: 0.3;
+}
