@@ -10,6 +10,8 @@ Version: 0.1.0
 
 /* testing */
 
+
+
 h2.widget-title {
     color: red;
 }
@@ -19,7 +21,7 @@ body.has-header-video .site-title,
 body.has-header-image .site-title a,
 body.has-header-video .site-title a {
     font-size: 80px;
-    color: blue;
+    color: #ed5a0b;
     /* position: absolute;
     left : 100px;
     right: 10px;
@@ -69,7 +71,7 @@ h2.widget-title {
 
 .navigation-top .current-menu-item>a,
 .navigation-top .current_page_item>a {
-    color: #7c9ac9;
+    color: #e28e61;
 }
 
 @media screen and (max-width: 800px) {
@@ -80,7 +82,7 @@ h2.widget-title {
 }
 
 .navigation-top a {
-    color: #7c9ac9;
+    color: #e28e61;
 }
 
 .elementor a {
@@ -88,7 +90,7 @@ h2.widget-title {
 }
 
 .social-navigation a {
-    background-color: #7c9ac9;
+    background-color: #e28e61;
 }
 
 @media screen and (max-width: 800px) {
